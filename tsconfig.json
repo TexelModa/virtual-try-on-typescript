@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "useDefineForClassFields": true,
+    "target": "ES2018",
+    "module": "commonjs",
+    "lib": ["ESNEXT", "dom"],
+    "allowJs": false,
+    "declaration": false,
+    "sourceMap": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "downlevelIteration": true,
+    "isolatedModules": false,
+    "strict": true,
+    "moduleResolution": "node",
+    "baseUrl": "./src",
+    "paths": {
+      "@/*": ["./*"],
+      "@apps/*": ["apps/*"],
+      "@modules/*": ["modules/*"]
+    },
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src/index.ts"]
+}
+
